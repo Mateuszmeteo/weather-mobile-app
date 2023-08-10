@@ -1,0 +1,194 @@
+
+
+/* AppMeteo.css */
+.app {
+  /* height: 100vh; */
+}
+.weather {
+  height: 100vh;
+}
+
+.weather__title {
+  width: 100%;
+  height: 200px;
+
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+
+  color: white;
+  
+}
+.weather__titleH2 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.weather__titleTemp {
+  margin: 0;
+  font-size: 76px;
+}
+.weather__titleDes {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.weather__search {
+  display: flex;
+  justify-content: center;
+}
+
+.weather__divLists {
+  display: flex;
+  justify-content: space-around;
+
+}
+.weather__list {
+  list-style: none;
+  padding-left: 0;
+
+  width: 100px;
+  height: 140px;
+  
+  background-color: #a1c4fd;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+.weather__listEl {
+}
+
+/* ///////////////// */
+.forecast__layout {
+  display: flex;
+  justify-content: center;
+}
+.forecast__title {
+  margin: 0;
+}
+
+.forecast {
+  display: flex;
+  overflow-x: auto;
+
+  width: 90vw;
+
+  
+}
+.forecast::-webkit-scrollbar {
+  display: none; /* Ukryj pasek przewijania w przeglądarkach WebKit */
+}
+
+.forecast__listHead {
+  list-style: none;
+  padding-left: 0;
+
+  background-color: #c2e9fb;
+
+  /* width: 60px; */
+
+
+}
+
+.forecast__listHeadEl {
+  background-color: #747d8c;
+  border-left: 1px solid black;
+}
+.forecast__listHeadH3 {
+  margin: 0;
+}
+.forecast__list {
+  list-style: none;
+  padding-left: 0;
+
+  background-color: aquamarine;
+  display: flex;
+
+}
+.forecast__listEl {
+  background-color: #f3ae4e;
+  border-radius: 20px;
+
+  text-align: center;
+
+  
+}
+.forecast__listElImg {
+  
+}
+.forecast__listElPar {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Definicje gradientów dla różnych opisów warunków pogodowych */
+  .weatherData.clear-sky {
+    background: linear-gradient(to bottom, #f2994a, #f2c94c);
+  }
+  
+  .weather-gradient.few-clouds {
+    background: linear-gradient(to bottom, #f3ae4e, #f5d020);
+  }
+  
+  .weather-gradient.scattered-clouds {
+    background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  }
+  
+  /* Dodaj gradienty dla pozostałych opisów warunków pogodowych */
+
+ 
+  /* Dodaj style tła dla pozostałych opisów warunków pogodowych */
+  
+  /* Przykładowe style dla innych opisów */
+  .light-rain {
+    background: linear-gradient(to bottom, #a4b0be, #747d8c);
+  }
+  
+  .heavy-rain {
+    background: linear-gradient(to bottom, #2f3640, #718093);
+  }
+  
+  .snow {
+    background: linear-gradient(to bottom, #dfe4ea, #f5f6fa);
+  }
+  
