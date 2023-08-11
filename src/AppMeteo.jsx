@@ -4,7 +4,7 @@ import axios from "axios";
 import styles from './appMeteo.module.css'
 
  export const AppMeteo = () => {
-    const [currentWeather, setCurrentWeather] = useState(null);
+    // const [currentWeather, setCurrentWeather] = useState(null);
   const [forecastData, setForecastData] = useState([]);
   
 
@@ -56,9 +56,9 @@ import styles from './appMeteo.module.css'
 
 
 
-      const formatTime = (date) => {
-        return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
-      };
+      // const formatTime = (date) => {
+      //   return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+      // };
 
       const formatDate = (date) => {
         const options = { day: 'numeric', month: 'numeric' };
